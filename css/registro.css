@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap%22");
+
+* {box-sizing: border-box}
+
+body{
+  background-color: #121212;
+  background-size: cover;
+  height: 100vh;
+  justify-content: center;
+  transition: background-0.4s ease-in;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 20px 0px 20px;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 900%;
+    animation: gradient 7s ease infinite;
+    font-family: "Poppins", sans-serif;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+
+}
+
+.container {
+  background-color: white;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 15px;
+    margin-top: 5vh;
+    border-radius: 15px;
+    text-align: center;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #dcdcde;
+  border-radius: 10px;
+
+}
+h1 img{
+  width: 115px;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #dcdcde;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+
+.registerbtn {
+text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    width: 125px;
+    border-radius: 20px;
+    margin-top: 30px;
+    color: black;
+    background-color:#dcdcde;
+    cursor: pointer;
+    margin-left: auto;
+    transition: 0.2s;
+}
+
+.registerbtn:hover {
+  background-color: #26628D;
+    transition: 0.2s;
+
+}
+
+
+a {
+  color: dodgerblue;
+}
+
+
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+

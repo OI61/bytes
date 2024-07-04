@@ -1,0 +1,131 @@
+*{
+	margin: 0px;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	border: none;
+	color: #FFFFFF;
+}
+body{
+	background-color: #121212;
+	background-size: cover;
+	height: 100vh;
+	justify-content: center;
+	transition: background-0.4s ease-in;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 20px 0px 20px;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 900%;
+    animation: gradient 7s ease infinite;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+
+}
+	
+	}
+	textarea:focus, input:focus {
+		outline: none;
+	}
+	a{
+		font-size: .8rem;
+	}
+	a:hover{
+		color: #08558B;
+	}
+
+	#loguin-container {
+		background-color: white;
+		width: 500px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 15px 15px;
+		margin-top: 20vh;
+		border-radius: 15px;
+		text-align: center;
+	}
+	#loguin-container:hover{
+		transition: 1s;
+	}
+	h1 img{
+		width: 95px;
+	}
+	form{
+		margin-top: 10px;
+		margin-bottom: 5px;
+	}
+	label,input{
+		display: block;
+		width: 100%;
+		text-align: left;
+
+	}
+	label{
+        color: black;
+		font-weight: bold;
+		font-size: 1.5rem;
+		font-style: italic;
+	}
+
+	input{
+		padding: 10px;
+		border-radius: 10px;
+		font-size: 1rem;
+		background-color: #dcdcde;
+
+	}
+	#forgot-pass{
+		text-align: right;
+		display: relative;
+		margin-top: 50px;
+		margin-left: 320px;
+		color: black;
+		font-style: bold;
+		font-family: verdana;
+		text-decoration: none;
+		font-size: 90%;
+	}
+	input[type="submit"]{
+		text-align: center;
+		text-transform: uppercase;
+		font-weight: bold;
+		border: none;
+		height: 40px;
+		width: 125px;
+		border-radius: 20px;
+		margin-top: 30px;
+		color: black;
+		background-color: linear-gradient #FFFF;
+		cursor: pointer;
+		margin-left: 160px;
+		transition: 0.2s;
+
+	}
+	input[type="submit"]:hover{
+		background-color: #26628D;
+		transition: 0.2s;
+
+	}
+
+	#register-container a{
+		color: #08558B;
+		margin-right: 380px;
+		font-size: 1rem;
+		text-decoration: none;
+		font-family: verdana;
+		font-style: bold;
+		color: black;
+
+
+	}
